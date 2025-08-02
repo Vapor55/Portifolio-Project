@@ -3,29 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Site</title>
+    <meta name="description" content="Portifólio de Guilherme Costa de Menezes, aprendiz de programação. Aprendendo Python, HTML e CSS. Fã de Bocchi the Rock e Vocaloid.">
+    <meta name="keywords" content="portifólio, Guilherme Costa de Menezes, programação, Python, HTML, CSS, Bocchi the Rock. Vocaloid, aprendiz de programação, redes sociais, projetos, GitHub, X (Twitter), Reddit, YouTube">
+    <meta name="author" content="Guilherme Costa de Menezes">
+    <title>Meu Portifólio</title>
     <link rel="icon" type="image/png" href="image/favicon.png">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
     <header>
 
-        <!-- A Anime Girl Profile Photo -->
+        <!-- Tables :( -->
 
-        <img src="image/profile-photo.png" alt="Hitori Gotoh Face" style="border-radius: 100%; width: 250px; height: 250px;"/>
+        <table>
+            <tr>
+                <td>
 
-        <!-- Real Name -->       
+                    <!-- A Anime Girl Profile Photo -->
 
-        <h1>Guilherme Costa de Menezes</h1>
+                    <picture>
+                        <source srcset="image/profile-photo.webp" type="image/webp">
+                        <source srcset="image/profile-photo-fallback.jpg" type="image/jpg">
+                        <img src="image/profile-photo-fallback.jpg" alt="Imagem de personagem de Anime, chamada de Hitori Gotou, com camisa da seleção Argentina, do Anime Bocchi the Rock, usada como foto de perfil." style="border-radius: 100%;" id="profile-photo">
+                    </picture>
 
-        <!-- Description -->
+                </td>
+                <td style="padding-left: 20px;">
+                    <div id="profile-info">
 
-        <p>
-            Aprendiz de programação. <br />
-            Estou aprendendo a <strong>programar</strong> principalmente em <em>Python e Javascript</em>, também <br />
-            estou aprendendo <em>HTML e CSS</em>. <br />
-            Sou fã de <em>Bocchi the Rock</em> e <em>Vocaloid</em> também :D <br />
-            Tenho <strong>Autismo</strong> 🧩
-        </p>
+                        <!-- Real Name -->
+
+                        <h1>Guilherme Costa de Menezes</h1>
+
+                        <!-- Description -->
+
+                        <p>
+                            Aprendiz de programação. <br />
+                            Estou aprendendo a <strong>programar</strong> principalmente em <em>Python e Javascript</em>, também <br />
+                            estou aprendendo <em>HTML e CSS</em>. <br /> 
+                            Sou fã de <em>Bocchi the Rock</em> e <em>Vocaloid</em> também :D <br /> 
+                            Tenho <strong>Autismo</strong> &#x1F9E9;
+                        </p>
+
+                    </div>
+                </td>
+            </tr>
+        </table>
         
     </header>
 
@@ -33,40 +56,76 @@
 
     <main>
 
-        <!-- Links for sociais medias -->
+        <div class="content">
 
-        <h2>Minhas <em>Redes Sociais:</em></h2>
+            <!-- Links for sociais medias -->
 
-        <ul>
-            <li> <a href="https://x.com/lixmm55" target="_blank">X (Old Twitter)</a> </li>
-            <li> <a href="https://github.com/Vapor55" target="_blank">Github</a> </li>
-            <li> <a href="https://www.reddit.com/user/Swimming_Brick_2293/" target="_blank">Reddit</a> </li>
-            <li> <a href="https://www.youtube.com/@hatsunemiku-k5r" target="_blank">Youtube</a> </li>
-        </ul>
+            <h2>Minhas <em>Redes Sociais:</em></h2>
 
-        <!-- What I like to do -->
+            <ul>
+                <li> <a href="https://x.com/lixmm55" target="_blank">X (Old Twitter)</a> </li>
+                <li> <a href="https://github.com/Vapor55" target="_blank">Github</a> </li>
+                <li> <a href="https://www.reddit.com/user/Swimming_Brick_2293/" target="_blank">Reddit</a> </li>
+                <li> <a href="https://www.youtube.com/@hatsunemiku-k5r" target="_blank">Youtube</a> </li>
+            </ul>
 
-        <h2>O que eu <em>gosto</em> de <em>fazer?</em></h2>
+            <!-- What I like to do -->
 
-        <ol>
-            <li>Programar</li>
-            <li>Jogar</li>
-            <li>Correr em casa</li>
-            <li>Caminhar</li>
-            <li>Assistir animes</li>
-        </ol>
+            <h2>O que eu <em>gosto</em> de <em>fazer?</em></h2>
+
+            <ol>
+                <li>Programar</li>
+                <li>Jogar</li>
+                <li>Correr em casa</li>
+                <li>Caminhar</li>
+                <li>Assistir animes</li>
+            </ol>
+
+        </div>
 
     </main>
 
+    <hr />
+
     <footer>
 
-        <!-- Credits and email =D -->
+        <div class="content">
+            
+            <!-- Experiencies -->
 
-        <p>
-            Criado por <em>Guilherme Costa de Menezes</em> <br />
-            Meu contato: <br />
-            <a href="mailto:guilhermecosta6777@gmail.com">guilhermecosta6777@gmail.com</a>
-        </p>
+            <h2>Experiências</h2>
+
+            <ol type="I">
+                <li>Aprendendo Python, HTML e CSS</li>
+                <li>Conhecimento intermediário sobre Linux</li>
+                <li>Conhecimento básico sobre Git e Github</li>
+            </ol>
+
+            <!-- Projects -->
+
+            <h2>Projetos</h2>
+
+            <ul type="square">
+                <li> <a href="https://github.com/Vapor55/Portifolio-Project" target="_blank">Portifolio Project</a> </li>
+                <li> <a href="https://github.com/Vapor55/PyCalc-CLI" target="_blank">PyCalc CLI (Em Desenvolvimento)</a> </li>
+            </ul>
+
+            <!-- My skills :| -->
+
+            <h2>Minhas habilidades</h2>
+
+            <ul>
+                <li>HTML e CSS &#11088; &#11088; &#11088;</li>
+                <li>Java Script &#11088; &#11088;</li>
+                <li>Design &#11088;</li>
+            </ul>
+
+            <!-- Credits and contact =D -->
+
+            <p>Criado por <em>Guilherme Costa de Menezes.</em> <br /></p>
+            <h2> <a href="html/contact.html">Meu Contato</a> </h2>
+
+        </div>
 
     </footer>
 </body>

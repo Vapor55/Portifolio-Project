@@ -10,52 +10,37 @@
     <link rel="icon" type="image/png" href="image/favicon.png">
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
-<body>
+<body style="background-color: pink;">
     <header>
+            <!-- Profile Info -->
 
-        <!-- Tables :( -->
+            <div style="padding-left: 20px;" id="profile-info">
+                <!-- Profile Photo -->
 
-        <table>
-            <tr>
-                <td>
+                <picture>
+                    <source srcset="image/profile-photo.webp" type="image/webp">
+                    <source srcset="image/profile-photo-fallback.jpg" type="image/jpg">
+                    <img src="image/profile-photo-fallback.jpg" alt="Imagem de personagem de Alien Stage, a Mizi, usada como foto de perfil." style="border-radius: 100%;" id="profile-photo">
+                </picture>
 
-                    <!-- Profile Photo -->
+                <!-- Real Name -->
 
-                    <picture>
-                        <source srcset="image/profile-photo.webp" type="image/webp">
-                        <source srcset="image/profile-photo-fallback.jpg" type="image/jpg">
-                        <img src="image/profile-photo-fallback.jpg" alt="Imagem de personagem de Alien Stage, a Mizi, usada como foto de perfil." style="border-radius: 100%;" id="profile-photo">
-                    </picture>
+                <h1>Guilherme</h1>
 
-                </td>
-                <td style="padding-left: 20px;">
-                    <div id="profile-info">
+                <!-- Description -->
 
-                        <!-- Real Name -->
-
-                        <h1>Guilherme</h1>
-
-                        <!-- Description -->
-
-                        <p>
-                            Aprendiz de programação. <br />
-                            Estou aprendendo a <strong>programar</strong> principalmente em <em> Java e Python</em>, também <br />
-                            estou aprendendo <em>HTML e CSS</em>. <br /> 
-                        </p>
-
-                    </div>
-                </td>
-            </tr>
-        </table>
-        
+                <p>
+                    Aprendiz de programação. <br />
+                    Estou aprendendo a <strong>programar</strong> principalmente em <em> Java e Python</em>, também <br />
+                    estou aprendendo <em>HTML e CSS</em>. <br /> 
+                </p>
+            </div>
     </header>
 
     <hr />
 
     <main>
-
         <div class="content">
-
             <!-- Links for sociais medias -->
 
             <h2>Minhas <em>Redes Sociais:</em></h2>
@@ -74,16 +59,6 @@
                 <li>Assistir animes</li>
             </ol>
 
-        </div>
-
-    </main>
-
-    <hr />
-
-    <footer>
-
-        <div class="content">
-            
             <!-- Experiencies -->
 
             <h2>Experiências</h2>
@@ -113,14 +88,18 @@
                 <li>Java &#11088; &#11088;</li>
                 <li>Python &#11088; &#11088;</li>
             </ul>
+        </div>
+    </main>
 
+    <hr />
+
+    <footer>
+        <div class="content">
             <!-- Credits and contact =D -->
 
             <p>Criado por <em>Guilherme.</em> <br /></p>
             <h2> <a href="html/contact.html">Meu Contato</a> </h2>
-
         </div>
-
     </footer>
 </body>
 </html>
